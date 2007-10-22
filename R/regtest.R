@@ -26,12 +26,14 @@
 #! \keyword{ misc }
 
 
-timefactor <- function(nom, denom, repnom=1, repdenom=1)
+timefactor <-
+function (nom, denom, repnom = 1, repdenom = 1)
 {
-  gc()
-  n <- system.time(for(f in 1:repnom)eval(substitute(nom)))
-  d <- system.time(for(f in 1:repdenom)eval(substitute(denom)))
-  cbind(nom=n/repnom, denom=d/repdenom, factor=repdenom/repnom*n/d)[c(1:3),]
+    gc()
+    n <- system.time(for (f in 1:repnom) eval(substitute(nom), envir=parent.frame()))
+    d <- system.time(for (f in 1:repdenom) eval(substitute(denom), envir=parent.frame()))
+    cbind(nom = n/repnom, denom = d/repdenom, factor = repdenom/repnom *
+        n/d)[c(1:3), ]
 }
 
 
