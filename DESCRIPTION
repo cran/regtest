@@ -1,12 +1,12 @@
 Package: regtest
 Type: Package
 Title: Regression testing
-Version: 0.02
-Date: 2007-10-22
-Author: Jens Oehlschlägel <Jens_Oehschlaegel@truecluster.com>
-Maintainer: Jens Oehlschlägel <Jens_Oehschlaegel@truecluster.com>
+Version: 0.04
+Date: 2009-01-29
+Author: Jens Oehlschlägel <Jens_Oehlschlaegel@truecluster.com>
+Maintainer: Jens Oehlschlägel <Jens_Oehlschlaegel@truecluster.com>
 Depends: R (>= 2.5.1)
 Description: Functions for unary and binary regression tests
 License: file LICENSE
 Encoding: latin1
-Packaged: Mon Oct 22 20:40:23 2007; Jens Oehlschlaegel
+Packaged: Thu Jan 29 19:02:11 2009; Jens Oehlschlaegel
