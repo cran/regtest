@@ -1,0 +1,14 @@
+			CHANGES IN regtest VERSION 0.06
+
+BUG FIXES
+
+    o	replaced .First.lib, .Last.lib by .onLoad, .onUnload
+
+
+
+			CHANGES IN regtest VERSION 0.05
+
+BUG FIXES
+
+    o	prebuild.sh no longer tries to execute a non-existing path
+

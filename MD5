@@ -1,0 +1,12 @@
+c7513048c20f62883cbe33aef4b77493 *DESCRIPTION
+31578a72c4333cd48ad5659453822294 *LICENSE
+9fdfeb11f7ddba6f3aab9aaa6b1ac5dd *NAMESPACE
+ca9b272eb516bfb8cb41c26b34e19e34 *NEWS
+d2353afbff8e1f4224dbf3b99d750f1c *R/regtest.R
+7f72730e85cf9b13032833758aec23dd *R/zzz.R
+016fe40abdd070aeadf246b577028e9f *exec/make_rd.pl
+a552dc0efa01ddb70d82692ed8eb8db0 *man/binregtest.rd
+effa6dd967c9cdaca021e4bbc85e91c4 *man/is.all.equal.rd
+f6ca9f06d0b2d4d4db35037a11b01385 *man/timefactor.rd
+564d68fc7a0656c39d205a420f4e844c *prebuild.sh
+7ff29a6c5700e25ac3c781d5ba29d102 *regtest-Ex.R
